@@ -1,0 +1,9 @@
+2020/10/25 16:23:18:904 Postman-1603637995492 Swapping the old app with new one
+2020/10/25 16:23:19:391 Postman-1603637995492 Swapping done
+2020/10/25 16:23:19:552 Postman-1603637995492 Parent process is alive, killing it now
+2020/11/02 12:23:05:520 Postman-1604332393454 Swapping the old app with new one
+2020/11/02 12:23:05:998 Postman-1604332393454 Swapping done
+2020/11/02 12:23:06:015 Postman-1604332393454 Parent process is alive, killing it now
+2021/01/05 22:09:29:348 Postman-1609879544254 Swapping the old app with new one
+2021/01/05 22:09:29:570 Postman-1609879544254 Swapping done
+2021/01/05 22:09:29:824 Postman-1609879544254 Parent process is alive, killing it now

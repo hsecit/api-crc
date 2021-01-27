@@ -1,0 +1,18 @@
+# PUT http://localhost:8080/users/5fff634e9315771627963afb HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "fullname":"mourad ayoub",
+#     "email" : "mourad@crc.ma",
+#     "phone":"0661237483"
+# }
+
+
+PUT http://localhost:8080/users/5fff634e9315771627963afb/change_password HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "current_password" : "hD81wRw?d-fZ83i",
+    "password" : "123123lahcen"
+}
