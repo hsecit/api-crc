@@ -10,7 +10,7 @@ import RendezVousRoute from './app/routes/rRendezVous.js'
 import ContactRoute from './app/routes/rContact.js'
 import UserRoute from './app/routes/rUser.js'
 import TrackCreanceRouter from './app/routes/rTrackcreance.js'
-
+import SettingRouter from './app/routes/rSetting.js'
 // app conf
 const app = express()
 dotenv.config()
@@ -36,6 +36,7 @@ app.use('/rdvs',RendezVousRoute);
 app.use('/contacts',ContactRoute)
 app.use('/users',UserRoute)
 app.use('/collections',TrackCreanceRouter)
+app.use('/settings',SettingRouter)
 // api routes
 app.get('/', (req,res) => {
     res.status(200).send("helloo from the server")
